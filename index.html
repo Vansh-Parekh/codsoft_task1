@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Management System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="brand-logo">TripHub</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Welcome to TripHub</h1>
+        <p>Your one-stop solution for seamless hotel management</p>
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-bar">
+          <button type="submit" class="search-button">Search</button>
+        </form>
+        <a href="#features" class="btn">Explore Features</a>
+      </div>
+    </div>
+  </section>  
+
+  <section id="features">
+    <div class="container">
+      <h2>Our Features</h2>
+      <div class="feature-container">
+        <div class="feature-card">
+          <img src="./assets/reservation.jpg" alt="Reservation Management">
+          <div class="feature-content">
+            <h3>Reservation Management</h3>
+            <p>Efficiently manage reservations and bookings.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <img src="./assets/guest.jpg" alt="Guest Management">
+          <div class="feature-content">
+            <h3>Guest Management</h3>
+            <p>Provide exceptional service to your guests.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <img src="./assets/room.jpg" alt="Room Management">
+          <div class="feature-content">
+            <h3>Room Management</h3>
+            <p>Keep your rooms organized and ready for guests.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>At TripHub, we are dedicated to providing top-notch hotel management solutions to streamline your operations and enhance guest satisfaction. With years of experience in the hospitality industry, our team understands the unique challenges you face and is here to help you overcome them.</p>
+        </div>
+        <div class="about-image">
+          <img src="./assets/team.jpg" alt="About Us">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <div class="gallery-item"><img src="./assets/lobby.jpg" alt="Hotel Lobby"></div>
+        <div class="gallery-item"><img src="./assets/luxury_room.jpg" alt="Luxury Room"></div>
+        <div class="gallery-item"><img src="./assets/pool.jpg" alt="Swimming Pool"></div>
+        <div class="gallery-item"><img src="./assets/dining.jpg" alt="Dining Area"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <p>"TripHub has revolutionized the way we manage our hotel. The system is incredibly user-friendly and efficient."</p>
+          <cite>- John Doe, Hotel Manager</cite>
+        </div>
+        <div class="testimonial">
+          <p>"Thanks to TripHub, we have seen a significant improvement in our guest satisfaction scores. Highly recommend!"</p>
+          <cite>- Jane Smith, Front Desk Supervisor</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 TripHub. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
